@@ -99,7 +99,7 @@ function a11yProps(index) {
     "aria-controls": `full-width-tabpanel-${index}`,
   };
 }
-
+// Tech stacks 
 const techStacks = [
   { icon: "html.svg", language: "HTML" },
   { icon: "css.svg", language: "CSS" },
