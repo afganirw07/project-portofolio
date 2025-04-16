@@ -201,11 +201,11 @@ const AboutPage = () => {
                 Hello, I'm
               </span>
               <span 
-                className="block mt-2 text-gray-200"
+                className="block mt-1 text-gray-200"
                 data-aos="fade-right"
                 data-aos-duration="1300"
               >
-                Eki Zulfar Rachman
+                Afgan Irwansyah Hidayat
               </span>
             </h2>
             
@@ -214,14 +214,12 @@ const AboutPage = () => {
               data-aos="fade-right"
               data-aos-duration="1500"
             >
-              seorang siswa Teknik Jaringan Komputer dan Telekomunikasi yang
-              tertarik dalam pengembangan Front-End. Saya berfokus pada
-              menciptakan pengalaman digital yang menarik dan selalu berusaha
-              memberikan solusi terbaik dalam setiap proyek.
+              Afgan Irwansyah Hidayat, siswa Sekolah di Taruna Bhakti Depok, jurusan Rekayasa Perangkat Lunak.
+              Seorang pelajar yang memiliki ketertarikan di bidang pemrograman dan bercita-cita menjadi seorang Fullstack Developer. Saya berfokus pada menciptakan pengalaman digital yang menarik serta selalu berusaha memberikan solusi terbaik dalam setiap proyek yang saya kerjakan.
             </p>
 
             <div className="flex flex-col lg:flex-row items-center lg:items-start gap-4 lg:gap-4 lg:px-0 w-full">
-              <a href="https://drive.google.com/drive/folders/1BOm51Grsabb3zj6Xk27K-iRwI1zITcpo" className="w-full lg:w-auto">
+              <a href="https://drive.google.com/file/d/138sPZIdoz5pYgCtMx4tmQZnnd_uRLrTf/view?usp=sharing" className="w-full lg:w-auto">
               <button 
                 data-aos="fade-up"
                 data-aos-duration="800"
