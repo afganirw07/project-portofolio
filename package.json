@@ -1,5 +1,6 @@
 {
-  "name": "portofolio-v5",
+  "name": "my_portfolio",
+  "homepage": "https://afganportofolio.my.id",
   "private": true,
   "version": "0.0.0",
   "type": "module",
