@@ -1,9 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X, Moon, Sun } from "lucide-react";
-import { useTheme } from "../hooks/useTheme";
 
 const Navbar = () => {
-    const { theme, toggleTheme } = useTheme();
     const [isOpen, setIsOpen] = useState(false);
     const [scrolled, setScrolled] = useState(false);
     const [activeSection, setActiveSection] = useState("Home");
@@ -115,23 +113,6 @@ const Navbar = () => {
                                     />
                                 </a>
                             ))}
-                            <button onClick={toggleTheme}>
-                                <div className="relative group">
-                                    <div className="relative px-4 py-2 rounded-full bg-black/40 backdrop-blur-xl border border-white/10">
-                                        {theme === "dark" ? (
-                                            <span className="flex items-center text-yellow-400 text-sm">
-                                                <Sun className="w-4 h-4 mr-2" />
-                                                Light Mode
-                                            </span>
-                                        ) : (
-                                            <span className="flex items-center text-indigo-500 text-sm">
-                                                <Moon className="w-4 h-4 mr-2" />
-                                                Dark Mode
-                                            </span>
-                                        )}
-                                    </div>
-                                </div>
-                            </button>
                         </div>
                     </div>
 
@@ -180,23 +161,6 @@ const Navbar = () => {
                                 {item.label}
                             </a>
                         ))}
-                        <button onClick={toggleTheme}>
-                            <div className="relative group">
-                                <div className="relative px-4 py-2 rounded-full bg-black/40 backdrop-blur-xl border border-white/10">
-                                    {theme === "dark" ? (
-                                        <span className="flex items-center text-yellow-400 text-sm">
-                                            <Sun className="w-4 h-4 mr-2" />
-                                            Light Mode
-                                        </span>
-                                    ) : (
-                                        <span className="flex items-center text-indigo-500 text-sm">
-                                            <Moon className="w-4 h-4 mr-2" />
-                                            Dark Mode
-                                        </span>
-                                    )}
-                                </div>
-                            </div>
-                        </button>
                     </div>
                 </div>
             </div>
