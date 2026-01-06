@@ -87,8 +87,15 @@ const SocialLink = memo(({ icon: Icon, link }) => (
 const TYPING_SPEED = 100;
 const ERASING_SPEED = 50;
 const PAUSE_DURATION = 2000;
-const WORDS = ["UI/UX Designer", "Web Developer", "Software Engineer"];
-const TECH_STACK = ["Javascript", "Java", "Python",];
+const WORDS = ["UI/UX Designer", "Web Developer", "Software Engineer", "Frontend Developer", "Backend Developer", "Mobile Developer", "DevOps Engineer", "Full-Stack Developer"];
+const TECH_STACK = [
+  "JavaScript",
+  "TypeScript",
+  "Python",
+  "Golang",
+  "Dart",
+];
+
 const SOCIAL_LINKS = [
   { icon: Github, link: "https://github.com/Afganirwansyahhidayat" },
   { icon: Linkedin, link: "https://www.linkedin.com/in/afgan-i-a141b1350/" },
